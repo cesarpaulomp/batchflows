@@ -1,0 +1,11 @@
+#run tests
+python -m unittest discover test "*Test.py"
+
+#build and upload
+python -m pip install --user --upgrade setuptools wheel
+python setup.py sdist bdist_wheel
+python -m pip install --user --upgrade twine
+#Test Env
+python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+#Prod
+python -m twine upload dist/*

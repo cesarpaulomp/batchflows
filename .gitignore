@@ -1,0 +1,11 @@
+/.idea
+/venv
+*.pyc
+.vscode/settings.json
+build
+batchflows.egg-info/dependency_links.txt
+batchflows.egg-info/PKG-INFO
+batchflows.egg-info/SOURCES.txt
+batchflows.egg-info/top_level.txt
+dist/batchflows-2.0.0b0.tar.gz
+dist/batchflows-2.0.0b0-py3-none-any.whl
